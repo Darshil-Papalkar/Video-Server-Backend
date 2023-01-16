@@ -1,0 +1,27 @@
+{
+  "name": "video-player-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshil-Papalkar/Video-Server-Backend.git"
+  },
+  "author": "Darshil Papalkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshil-Papalkar/Video-Server-Backend/issues"
+  },
+  "homepage": "https://github.com/Darshil-Papalkar/Video-Server-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
